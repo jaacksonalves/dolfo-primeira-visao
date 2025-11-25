@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // Use base relativa para funcionar tanto em GitHub Pages (subpasta) quanto em domínio personalizado
-      base: './',
+      // Base absoluta para o repositório GitHub Pages (garante caminhos corretos de assets em produção)
+      base: '/dolfo-primeira-visao/',
       server: {
         port: 3000,
         host: '0.0.0.0',
