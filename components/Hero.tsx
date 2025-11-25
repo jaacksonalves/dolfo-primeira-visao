@@ -32,7 +32,7 @@ export const Hero: React.FC = () => {
                 Quero meu Plano de Ação <ArrowRight size={20} />
               </Button>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/jose-elias-mendes/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-full font-bold border-2 border-dolfoBlue text-dolfoBlue hover:bg-blue-50 transition-colors gap-2"

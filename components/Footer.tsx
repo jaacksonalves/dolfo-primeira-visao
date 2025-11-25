@@ -29,19 +29,23 @@ export const Footer: React.FC = () => {
 
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/jose-elias-mendes/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-dolfoBlue hover:bg-dolfoBlue hover:text-white transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
               <a 
-                href="#" 
-                className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-pink-600 hover:bg-pink-600 hover:text-white transition-all duration-300"
-                aria-label="Instagram"
-              >
-                <Instagram size={24} />
-              </a>
+                  href="https://www.instagram.com/meunomenaoedolfo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-pink-600 hover:bg-pink-600 hover:text-white transition-all duration-300"
+                  aria-label="Instagram"
+                >
+                  <Instagram size={24} />
+                </a>
               <a 
                 href="mailto:contato@dolfo.com" 
                 className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center text-gray-700 hover:bg-gray-700 hover:text-white transition-all duration-300"
