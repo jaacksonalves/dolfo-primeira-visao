@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
                     3. Se a imagem for um recorte (sem fundo), você pode remover a div 'bg-white' acima para um efeito mais legal.
                   */}
                   <img 
-                    src="/images/ze-elias.png" 
+                    src={`${import.meta.env.BASE_URL}images/ze-elias.png`} 
                     alt="Zé Elias Rodolfo - Especialista em LinkedIn" 
                     className="w-full h-auto object-contain aspect-[4/5]"
                   />
